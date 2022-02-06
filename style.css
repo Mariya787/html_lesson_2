@@ -1,7 +1,27 @@
-.title {color: red;}
-.para {font-style: italic;}
-form p.ft {color: green; font-weight: bold;}
-#appearance {text-align: center;}
-#picture1 {font-family: Courier New; font-size: 24px;}
-#abc {font-size: 28px;}
-li {color: blue;}
+.title {
+    color: red;
+}
+
+.para {
+    font-style: italic;
+}
+
+form p.ft {
+    color: green; font-weight: bold;
+}
+
+#appearance {
+    text-align: center;
+}
+
+#picture1 {
+    font-family: Courier New; font-size: 24px;
+}
+
+#abc {
+    font-size: 28px;
+}
+
+li {
+    color: blue;
+}

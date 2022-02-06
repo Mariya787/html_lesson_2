@@ -11,42 +11,40 @@
 <body>
 
 <p class="title" id="abc">Заполните форму</p>
-<form>
-    <form action="/handler.php" method="post">
-        <p class="ft"><label for="clientName">Ваше имя</label></p>
-        <input type="text" id="clientName" name="clientName"/>
-        <br/>
-        <p class="ft"><label for="clientSurname">Ваша фамилия</label></p>
-        <input type="text" id="clientSurname" name="clientSurname"/>
-        <br/>
-        <p class="ft">Ваш пол</p>
-        <label><input type="radio" name="pol" value="female">Женский</label>
-        <label><input type="radio" name="pol" value="male">Мужской</label>
-        <p class="ft">Ваш комментарий:</p>
-        <p><textarea rows="10" cols="50" name="comment"></textarea></p>
-        <p class="ft">Выберите страны:</p>
-        <p><select size="3" id="country" multiple name="country">
-            <option disabled>Название</option>
-            <option value="Germany">Германия</option>
-            <option selected value="Russia">Россия</option>
-            <option value="France">Франция</option>
-            <option value="USA">США</option>
-            <option value="Spain">Испания</option>
-        </select></p>
-        <br/>
-        <p class="ft">Какие домашние животные у вас есть?</p>
-        <label><input type="checkbox" name="animal" value="Кошка"> Кошка</label>
-        <label><input type="checkbox" name="animal" value="Собака"> Собака</label>
-        <label><input type="checkbox" name="animal" value="Попугай"> Попугай</label>
-        <label><input type="checkbox" name="animal" value="Хомяк"> Хомяк</label>
-        <label><input type="checkbox" name="animal" value="Морская свинка"> Морская свинка</label>
-        <p>
-            <button type="reset" class="ft">Очистить форму</button>
-        </p>
-        <p>
-            <button type="submit" class="ft">Отправить данные</button>
-        </p>
-    </form>
+<form action="/handler.php" method="post">
+    <p class="ft"><label for="clientName">Ваше имя</label></p>
+    <input type="text" id="clientName" name="clientName"/>
+    <br/>
+    <p class="ft"><label for="clientSurname">Ваша фамилия</label></p>
+    <input type="text" id="clientSurname" name="clientSurname"/>
+    <br/>
+    <p class="ft">Ваш пол</p>
+    <label><input type="radio" name="gender" value="female">Женский</label>
+    <label><input type="radio" name="gender" value="male">Мужской</label>
+    <p class="ft">Ваш комментарий:</p>
+    <p><textarea rows="10" cols="50" name="comment"></textarea></p>
+    <p class="ft">Выберите страны:</p>
+    <p><select size="3" id="country" multiple name="country">
+        <option disabled>Название</option>
+        <option value="Germany">Германия</option>
+        <option selected value="Russia">Россия</option>
+        <option value="France">Франция</option>
+        <option value="USA">США</option>
+        <option value="Spain">Испания</option>
+    </select></p>
+    <br/>
+    <p class="ft">Какие домашние животные у вас есть?</p>
+    <label><input type="checkbox" name="animal" value="Кошка"> Кошка</label>
+    <label><input type="checkbox" name="animal" value="Собака"> Собака</label>
+    <label><input type="checkbox" name="animal" value="Попугай"> Попугай</label>
+    <label><input type="checkbox" name="animal" value="Хомяк"> Хомяк</label>
+    <label><input type="checkbox" name="animal" value="Морская свинка"> Морская свинка</label>
+    <p>
+        <button type="reset" class="ft">Очистить форму</button>
+    </p>
+    <p>
+        <button type="submit" class="ft">Отправить данные</button>
+    </p>
 </form>
 <a target="_blank" href="index.html" class="title">Вернуться к странице с мятликом</a>
 <br/>
